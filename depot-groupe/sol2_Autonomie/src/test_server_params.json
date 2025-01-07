@@ -1,0 +1,14 @@
+{
+    "name": "teamA",
+    "robot_list": {
+        "teamA": "localhost:5000",
+        "teamB": "localhost:5001"
+    },
+    "robot_priority": ["teamA", "teamB"],
+    "dbFile": "orchestrator.db",
+    "marker_position": ["SO", "O", "NO", "NE", "E", "SE"],
+    "map_robot_marker" : {
+        "teamA" : [20,21,22,23],
+        "teamB" : [30,31,32,33]
+    }
+}
